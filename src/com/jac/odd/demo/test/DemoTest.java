@@ -6,6 +6,7 @@ import net.sf.json.JSONObject;
 import com.jac.odd.demo.utils.DataUtils;
 import com.jac.odd.demo.utils.UnicodeUtils;
 import com.jac.odd.demo.utils.requestUtil;
+//
 public class DemoTest {
 	private static String URL = "http://192.168.10.92:8080/odd_server/odd_server?";//测试地址,根据实际提供地址修改
 	private static String URL_LOCALHOST = "http://localhost:8086/odd/odd_server?";//本地测试地址
@@ -28,7 +29,7 @@ public class DemoTest {
 		postData = UnicodeUtils.toUnicodeString(postData);
 		System.out.println("NO2:"+postData);
 		
-		//invoke type01
+		//invoke type01 no 
 //		String html = requestUtil.getResponseData(URL+requestData(ACTION_QUERY, method, airm)+postData, postData);
 		
 		//invoke type02
